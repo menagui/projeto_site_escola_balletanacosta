@@ -109,8 +109,11 @@ main{
 
 .beneficios_img{
     margin-right: 32%;
-    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.37);
-    
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.37);     
+}
+.beneficios_img > img{
+    height: 100%;
+    width: 100;
 }
 .participacao{
     background-color: #7c0e2f;
@@ -131,6 +134,7 @@ main{
 
 .participacao_img{
     margin: 30px;
+
 }
 
 .listagem{
