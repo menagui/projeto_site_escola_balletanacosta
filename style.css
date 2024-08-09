@@ -28,8 +28,7 @@ body{
 header{
     background-image: linear-gradient(to bottom, white 40%, #f8c4d5, var(--cor2));
     color: var(--cor1);
-    font-family: var(--fonte-destque);
-    background-color: white;
+    font-family: var(--fonte-destque); 
     min-height: 150px;
     text-align: center;
    
@@ -52,7 +51,7 @@ nav > a{
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 3px;
     transition-duration: 0.3s;   
 }
 
@@ -134,11 +133,11 @@ main{
 
 .participacao_img{
     margin: 30px;
-
 }
 
 .listagem{
     font-size: 20px;
+    margin: 30px 0px
 }
 
 .profs_texto{
