@@ -85,15 +85,15 @@ main{
 
 .motivacao_img{
     margin-left: 40%;
-    font-size: 13px;
-    background-color: #7c0e2f;
-    border-width: 10px;
-    border-radius: 1%;
-    color: white;
+    border-radius: 100%;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    background: black;
     
 }
-.motivacao_img > img, p{
-    margin: 10px;
+.motivacao_img > img{
+    width: 100%;
     
 }
 
